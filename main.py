@@ -35,7 +35,7 @@ def lerISBN(mensagem):
         digitos = isbn.replace("-", "").replace(" ", "")
         if digitos.isdigit() and len(digitos) == 13:
             return isbn
-        print("ISBN invalido! Informe um codigo com 13 digitos.")
+        print("ISBN invalido! Informe um codigo com 13 digitos")
 
 
 def buscarIndice(lista, codigo):
